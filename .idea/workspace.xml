@@ -19,13 +19,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="25" selection-start="430" selection-end="430" vertical-scroll-proportion="0.6660746">
+            <state line="25" column="25" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1347734462000" expanded="true" signature="347:447" placeholder="do ... end" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rdoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,7 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Capfile" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
@@ -60,6 +68,7 @@
         <option value="$PROJECT_DIR$/config/recipes/nodejs.rb" />
         <option value="$PROJECT_DIR$/config/recipes/postgresql.rb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
       </list>
     </option>
   </component>
@@ -456,13 +465,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/database.example.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="12" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.5737122">
@@ -563,10 +565,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="25" selection-start="430" selection-end="430" vertical-scroll-proportion="0.6660746">
+        <state line="25" column="25" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1347734462000" expanded="true" signature="347:447" placeholder="do ... end" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
