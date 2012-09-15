@@ -17,6 +17,9 @@ end
 gem 'jquery-rails'
 gem 'haml-rails'
 
+gem 'nokogiri'       #requirments: sudo apt-get install libxslt-dev libxml2-dev
+gem 'activemerchant'
+
 gem 'unicorn'
 
 group :development do
