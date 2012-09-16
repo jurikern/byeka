@@ -64,4 +64,14 @@ Byeka::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
+
+  config.after_initialize do
+    ActiveMerchant::Billing::Base.mode = :production
+    paypal_options = {
+        :login     => 'juri.semjonov_api1.gmail.com',
+        :password  => 'VGZMM2WRNTD3W4H8',
+        :signature => 'AY1Pja9XYP0FVbrJoCnD8NTuRAA7Al5Jhuqh9pNNssaQHMHJ6X4n1sFJ'
+    }
+    ::EXPRESS_GATEWAY = ActiveMerchant::Billing::PaypalExpressGateway.new(paypal_options)
+  end
 end

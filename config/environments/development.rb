@@ -34,4 +34,14 @@ Byeka::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  config.after_initialize do
+    ActiveMerchant::Billing::Base.mode = :test
+    paypal_options = {
+        :login     => 'juri.s_1318266968_biz_api1.gmail.com',
+        :password  => '1318266992',
+        :signature => 'AN4rD5nH7G.TwGzWfbI2D32Ktv8ZA8QsFZAojnYc.uTJCHub-CKR0Ti.'
+    }
+    ::EXPRESS_GATEWAY = ActiveMerchant::Billing::PaypalExpressGateway.new(paypal_options)
+  end
 end
